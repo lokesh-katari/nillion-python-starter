@@ -1,0 +1,16 @@
+---
+program: budget_calc
+inputs:
+  utilities_expense:
+    SecretInteger: "1"
+  rent_expense:
+    SecretInteger: "2"
+  food_expense:
+    SecretInteger: "3"
+  total_budget:
+    SecretInteger: "15"
+  entertainment_expense:
+    SecretInteger: "5"
+expected_outputs:
+  remaining_budget:
+    SecretInteger: "4"
